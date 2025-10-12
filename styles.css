@@ -263,7 +263,7 @@ header {
   padding: 12px 24px;
   border: none;
   border-radius: 12px;
-  background: #009640;
+  background: #009641cc;
   color: #e1e1e1;
   font-size: 16px;
   cursor: pointer;
@@ -271,7 +271,7 @@ header {
 }
 
 .formulario button:hover {
-    background: linear-gradient(to right, #009641, #e6007f);
+    background: linear-gradient(to right, #009640, #e6007e);
 }
 
 /* footer */
@@ -299,7 +299,7 @@ footer {
   text-decoration: none;
   font-size: 32px;
   font-weight: 500;
-  background-color: #e6007e;
+  background-color: #e6007fcb;
   color: #e1e1e1;
   border-radius: 50%;
   transition: opacity 0.3s ease-in-out, background-color 0.3s ease-in-out;
@@ -308,10 +308,10 @@ footer {
 }
 
 .scroll-top:hover {
-  background: linear-gradient(to right, #009641, #e6007f);
+  background: linear-gradient(to right, #009640, #e6007e);
 }
 
-#inicio:target ~ .scroll-top {
+#header:target ~ .scroll-top {
   opacity: 0;
   pointer-events: none;
 }
