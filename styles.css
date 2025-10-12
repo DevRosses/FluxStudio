@@ -1,0 +1,312 @@
+body {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: 0.6px;
+  margin: 0;
+  padding: 0;
+  background-color: #1d1d1b;
+  color: #e1e1e1;
+}
+
+.contenedor {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 24px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 24px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+}
+
+.logoImg {
+  max-width: 96px;
+  height: auto;
+}
+
+.navegacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid #9f9f9f15;
+  border-radius: 36px;
+  padding: 12px 24px;
+}
+
+.navegacion ul {
+  list-style: none;
+  padding: 0;
+}
+
+.navegacion ul li {
+  display: inline;
+  margin: 0 24px;
+}
+
+.navegacion ul li a {
+  color: #e1e1e1;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.seccion {
+  margin: 36px 12px;
+  padding: 60px 48px;
+  border-radius: 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 600px;
+  min-width: 100%;
+  gap: 40px 80px;
+}
+
+/* inicio */
+.seccion-inicio {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.inicio_uno {
+  width: 48%;
+}
+
+.inicio_uno p {
+  text-align: left;
+}
+
+.inicio_dos {
+  width: 48%;
+}
+
+.img-inicio {
+  max-width: 80%;
+  height: auto;
+  margin: 0;
+}
+
+/* nosotros */
+
+.seccion-nosotros {
+  display: flex;
+}
+
+.nosotros_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 24px 36px;
+  width: 84%;
+  gap: 12px;
+}
+
+.nosotros_div p {
+  text-align: left;
+}
+
+.nosotros_img {
+  max-width: 36%;
+  height: auto;
+}
+
+/* servicios */
+
+.seccion-servicios {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 48px;
+  gap: 24px;
+}
+
+.servicios_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 36px 60px;
+  gap: 24px;
+}
+
+.servicios_div p {
+  text-align: left;
+}
+
+.servicios_img {
+  max-width: 24%;
+  height: auto;
+}
+
+/* portafolio */
+
+.seccion-portafolio {
+  display: flex;
+  flex-direction: column;
+  width: 96%;
+  gap: 36px;
+  padding: 36px 48px;
+}
+
+.portafolio_div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 36px;
+  border: 4px solid #9f9f9f15;
+  border-radius: 36px;
+}
+
+.proyecto_portafolio_descripcion {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.portafolio_img {
+  max-width: 20%;
+  height: auto;
+}
+
+/* contacto */
+
+.seccion-contacto {
+  display: flex;
+  flex-direction: column;
+  width: 96%;
+  padding: 12px 24px;
+}
+
+.contacto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 48px;
+}
+
+.contacto_div1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  max-width: 48%;
+}
+
+.contacto_div2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 48%;
+  gap: 60px;
+}
+
+.contacto_div p {
+  text-align: left;
+}
+
+.contacto_redes {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.contacto_img {
+  max-width: 12%;
+  height: auto;
+}
+
+/* formulario */
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 94%;
+}
+
+.formulario input,
+.formulario textarea {
+  padding: 12px;
+  border: 2px solid #9f9f9f15;
+  border-radius: 12px;
+  font-size: 16px;
+}
+
+.formulario textarea {
+  min-height: 120px;
+}
+
+.formulario button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 12px;
+  background: #009640;
+  color: #e1e1e1;
+  font-size: 16px;
+  cursor: pointer;
+  width: 32%;
+}
+
+.formulario button:hover {
+  background: #e6007e;
+}
+
+/* footer */
+footer {
+  border: 4px solid #9f9f9f15;
+  border-radius: 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px 0;
+  background: #9f9f9f0e;
+  color: #9f9f9f;
+  width: 60%;
+}
+
+/* Botón de Volver Arriba */
+.scroll-top {
+  position: fixed;
+  bottom: 36px;
+  right: 36px;
+  width: 48px;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 32px;
+  font-weight: 500;
+  background-color: #e6007e;
+  color: #e1e1e1;
+  border-radius: 50%;
+  transition: opacity 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  opacity: 1;
+  z-index: 1000;
+}
+
+.scroll-top:hover {
+  background-color: #009640;
+}
+
+#inicio:target ~ .scroll-top {
+  opacity: 0;
+  pointer-events: none;
+}

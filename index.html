@@ -5,156 +5,253 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flux Studio</title>
     <link rel="stylesheet" href="styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
   </head>
+
   <body>
     <div class="contenedor">
-      <header><h1>Flux Studio</h1></header>
-      <nav>
-        <ul>
-          <li><a href="#inicio">inicio</a></li>
-          <li><a href="#nosotros">nosotros</a></li>
-          <li><a href="#servicios">servicios</a></li>
-          <li><a href="#portfolio">portafolio</a></li>
-          <li><a href="#contacto">contacto</a></li>
-        </ul>
-      </nav>
+      <header>
+        <div class="logo">
+          <img src="/IMG/logoneg.svg" alt="Flux Studio Logo" class="logoImg" />
+          <h3 class="titulo">Flux Studio</h3>
+        </div>
+
+        <nav class="navegacion">
+          <ul>
+            <li><a href="#inicio">inicio</a></li>
+            <li><a href="#nosotros">nosotros</a></li>
+            <li><a href="#servicios">servicios</a></li>
+            <li><a href="#portfolio">portafolio</a></li>
+            <li><a href="#contacto">contacto</a></li>
+          </ul>
+        </nav>
+      </header>
 
       <section id="inicio" class="seccion">
-        <div>
-          <h2>Bienvenido a Flux Studio</h2>
-          <p>
-            En Flux Studio, transformamos tus ideas en realidades digitales.
-          </p>
-        </div>
-      </section>
-      <section id="nosotros" class="seccion">
-        <div>
-          <h2>Nosotros</h2>
-          <p>
-            Somos un equipo de creativos y desarrolladores apasionados por la
-            tecnología.
-          </p>
-        </div>
-        <div>
-          <p>
-            Nuestro enfoque es brindar soluciones innovadoras y personalizadas
-            para cada cliente.
-          </p>
-        </div>
-        <div>
-          <p>
-            Trabajamos en estrecha colaboración con nuestros clientes para
-            entender sus necesidades y objetivos.
-          </p>
-        </div>
-      </section>
-      <section id="servicios" class="seccion">
-        <div>
-          <h2>Servicios</h2>
-          <p>
-            Ofrecemos una amplia gama de servicios, desde diseño web hasta
-            desarrollo de aplicaciones.
-          </p>
-        </div>
-        <div></div>
-          <h3>Diseño Web</h3>
-          <p>
-            Creamos sitios web atractivos y funcionales que se adaptan a las
-            necesidades de nuestros clientes.
-          </p>
-        </div>
-        <div>
-          <h3>Desarrollo de Aplicaciones</h3>
-          <p>
-            Desarrollamos aplicaciones personalizadas para mejorar la
-            eficiencia de tu negocio.
-          </p>
-        </div>
-        <div>
-          <h3>Marketing Digital</h3>
-          <p>
-            Ayudamos a las empresas a crecer en línea a través de estrategias
-            de marketing efectivas.
-          </p>
-        </div>
-        <div>
-          <h3>Consultoría</h3>
-          <p>
-            Ofrecemos servicios de consultoría para ayudar a las empresas a
-            alcanzar sus objetivos.
-          </p>
-        </div>
-      </section>
-      <section id="portfolio" class="seccion">
-        <div>
-          <h2>Portafolio</h2>
-          <p>
-            Explora algunos de nuestros proyectos más recientes y destacados.
-          </p>
-        </div>
-        <div> </div>
-          <h3>Proyecto 1</h3>
-          <p>
-            Descripción breve del proyecto 1.
-          </p>
-        </div>
-        <div>
-          <h3>Proyecto 2</h3>
-          <p>
-            Descripción breve del proyecto 2.
-          </p>
-        </div>
-        <div>
-          <h3>Proyecto 3</h3>
-          <p>
-            Descripción breve del proyecto 3.
-          </p>
-        </div>
-        <div>
-          <h3>Proyecto 4</h3>
-          <p>
-            Descripción breve del proyecto 4.
-          </p>
-        </div>
-        <div>
-          <h3>Proyecto 5</h3>
-          <p>
-            Descripción breve del proyecto 5.
-          </p>
-        </div>
-      </section>
-      <section id="contacto" class="seccion">
-        <div>
-          <h2>Contacto</h2>
-          <p>
-            ¿Tienes un proyecto en mente? ¡Contáctanos y hablemos sobre ello!
-          </p>
-        </div>
-        <div>
-          <h3>Formulario de Contacto</h3>
-          <p>
-            Completa el siguiente formulario y nos pondremos en contacto contigo
-            lo antes posible.
-          </p>
-        </div>
-        <div>
-          <h3>Información de Contacto</h3>
-          <p>
-            También puedes contactarnos a través de nuestras redes sociales o
-            por correo electrónico.
-          </p>
-        </div>
-        <div> <h3>Redes Sociales</h3>
-          <p>
-            Síguenos en nuestras redes sociales para estar al tanto de nuestras
-            novedades y proyectos.
-          </p>
+        <div class="seccion-inicio">
+          <div class="inicio_uno">
+            <h3>Transformamos tus ideas en realidades digitales.</h3>
+          </div>
+
+          <div class="inicio_dos">
+            <h2>Bienvenido a Flux Studio</h2>
+            <img src="/IMG/colibricybor.png" alt="Inicio" class="img-inicio" />
+          </div>
         </div>
       </section>
 
-      <footer class="seccion">
+      <section id="nosotros" class="seccion">
+        <h3>Nosotros</h3>
+
+        <div class="seccion-nosotros">
+          <div class="nosotros_div">
+            <p>
+              Somos un equipo de creativos y desarrolladores apasionados por la
+              tecnología.
+            </p>
+            <img
+              src="/IMG/logoneg.svg"
+              alt="imagen-nosotros"
+              class="nosotros_img"
+            />
+          </div>
+
+          <div class="nosotros_div">
+            <p>
+              Nuestro enfoque es brindar soluciones innovadoras y personalizadas
+              para cada cliente.
+            </p>
+            <img
+              src="/IMG/logoneg.svg"
+              alt="imagen-nosotros"
+              class="nosotros_img"
+            />
+          </div>
+
+          <div class="nosotros_div">
+            <p>
+              Trabajamos en estrecha colaboración con nuestros clientes para
+              entender sus necesidades y objetivos.
+            </p>
+            <img
+              src="/IMG/logoneg.svg"
+              alt="imagen-nosotros"
+              class="nosotros_img"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="servicios" class="seccion">
+        <h3>
+          Ofrecemos una amplia gama de servicios, desde diseño web hasta
+          desarrollo de aplicaciones.
+        </h3>
+
+        <div class="seccion-servicios">
+          <div class="servicios_div">
+            <h3>Diseño Web</h3>
+            <p>
+              Creamos sitios web atractivos y funcionales que se adaptan a las
+              necesidades de nuestros clientes.
+            </p>
+            <img
+              src="/IMG/logoneg.svg"
+              alt="imagen-servicios"
+              class="servicios_img"
+            />
+          </div>
+
+          <div class="servicios_div">
+            <h3>Desarrollo de Aplicaciones</h3>
+            <p>
+              Desarrollamos aplicaciones personalizadas para mejorar la
+              eficiencia de tu negocio.
+            </p>
+            <img
+              src="/IMG/logoneg.svg"
+              alt="imagen-servicios"
+              class="servicios_img"
+            />
+          </div>
+
+          <div class="servicios_div">
+            <h3>Marketing Digital</h3>
+            <p>
+              Ayudamos a las empresas a crecer en línea a través de estrategias
+              de marketing efectivas.
+            </p>
+            <img
+              src="/IMG/logoneg.svg"
+              alt="imagen-servicios"
+              class="servicios_img"
+            />
+          </div>
+
+          <div class="servicios_div">
+            <h3>Consultoría</h3>
+            <p>
+              Ofrecemos servicios de consultoría para ayudar a las empresas a
+              alcanzar sus objetivos.
+            </p>
+            <img
+              src="/IMG/logoneg.svg"
+              alt="imagen-servicios"
+              class="servicios_img"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio" class="seccion">
+        <h3>Portafolio</h3>
+        <p>Explora algunos de nuestros proyectos más recientes y destacados.</p>
+
+        <div class="seccion-portafolio">
+          <div class="portafolio_div">
+            <div class="proyecto_portafolio_descripcion">
+              <h3>Proyecto 1</h3>
+              <p>Descripción breve del proyecto 1.</p>
+            </div>
+            <img
+              src="/IMG/logoneg.svg"
+              alt="imagen-servicios"
+              class="portafolio_img"
+            />
+          </div>
+
+          <div class="portafolio_div">
+            <div class="proyecto_portafolio_descripcion">
+              <h3>Proyecto 2</h3>
+              <p>Descripción breve del proyecto 2.</p>
+            </div>
+            <img
+              src="/IMG/logoneg.svg"
+              alt="imagen-servicios"
+              class="portafolio_img"
+            />
+          </div>
+
+          <div class="portafolio_div">
+            <div class="proyecto_portafolio_descripcion">
+              <h3>Proyecto 3</h3>
+              <p>Descripción breve del proyecto 3.</p>
+            </div>
+            <img
+              src="/IMG/logoneg.svg"
+              alt="imagen-servicios"
+              class="portafolio_img"
+            />
+          </div>
+
+          <div class="portafolio_div">
+            <div class="proyecto_portafolio_descripcion">
+              <h3>Proyecto 4</h3>
+              <p>Descripción breve del proyecto 4.</p>
+            </div>
+            <img
+              src="/IMG/logoneg.svg"
+              alt="imagen-servicios"
+              class="portafolio_img"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="contacto" class="seccion">
+        <h3>
+          ¿Tienes un proyecto en mente? ¡Contáctanos y hablemos sobre ello!
+        </h3>
+
+        <div class="contacto">
+          <div class="contacto_div1">
+            <p>
+              Completa el siguiente formulario y nos pondremos en contacto
+              contigo lo antes posible.
+            </p>
+               <form action=" " class="formulario">
+              <input type="text" placeholder="Tu nombre" required />
+              <input type="email" placeholder="Tu mail" required />
+              <textarea placeholder="Escribinos ..." required></textarea>
+              <button type="submit">Enviar</button>
+            </form>
+          </div>
+
+          <div class="contacto_div2">
+            <p>También podes contactarnos a través de nuestras redes</p>
+
+          <div class="contacto_redes">
+            <img
+              src="/IMG/logoneg.svg"
+              alt="imagen-servicios"
+              class="contacto_img"
+            />
+            <img
+              src="/IMG/logoneg.svg"
+              alt="imagen-servicios"
+              class="contacto_img"
+            />
+            <img
+              src="/IMG/logoneg.svg"
+              alt="imagen-servicios"
+              class="contacto_img"
+            />
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
         <p>&copy; 2025 Flux Studio. Todos los derechos reservados.</p>
       </footer>
+       <a href="#inicio" class="scroll-top" id="scrollTopButton">
+        ↑
+    </a>
     </div>
   </body>
 </html>
