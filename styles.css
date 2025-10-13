@@ -82,6 +82,14 @@ header {
   gap: 40px 80px;
 }
 
+.patron {
+  background-image: url(./IMG/PATRONfinal.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
 /* inicio */
 .seccion-inicio {
   display: flex;
