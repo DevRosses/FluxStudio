@@ -11,7 +11,7 @@ body {
 }
 
 .contenedor {
-  max-width: 1320px;
+  max-width: 1240px;
   margin: 0 auto;
   padding: 24px 0;
   display: flex;
@@ -71,14 +71,13 @@ header {
 }
 
 .seccion {
-  margin: 36px 12px;
+  margin-top: 36px;
   padding: 60px 48px;
-  border-radius: 36px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 600px;
+  min-height: 500px;
   min-width: 100%;
   gap: 40px 80px;
 }
@@ -86,27 +85,26 @@ header {
 /* inicio */
 .seccion-inicio {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
   text-align: center;
+  width: 100%;
+  margin-top: 12px;
 }
 
 .inicio_uno {
-  width: 48%;
+  width: 72%;
+  margin-bottom: 60px;
 }
 
 .inicio_uno p {
-  text-align: left;
-}
-
-.inicio_dos {
-  width: 48%;
+  text-align: center;
 }
 
 .img-inicio {
-  max-width: 80%;
+  max-width: 60%;
   height: auto;
-  margin: 0;
+  margin: 12px;
 }
 
 /* nosotros */
@@ -206,22 +204,23 @@ header {
   justify-content: space-between;
   align-items: center;
   margin-top: 48px;
+  width: 96%;
 }
 
 .contacto_div1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 60px;
-  max-width: 48%;
+  gap: 36px;
+  max-width: 54%;
 }
 
 .contacto_div2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 48%;
-  gap: 60px;
+  max-width: 36%;
+  gap: 36px;
 }
 
 .contacto_div p {
@@ -244,7 +243,7 @@ header {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  width: 94%;
+  width: 72%;
 }
 
 .formulario input,
@@ -271,7 +270,7 @@ header {
 }
 
 .formulario button:hover {
-    background: linear-gradient(to right, #009640, #e6007e);
+  background: linear-gradient(to right, #009640, #e6007e);
 }
 
 /* footer */
