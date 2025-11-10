@@ -6,11 +6,18 @@
     <title>Flux Studio</title>
 
     <link rel="icon" type="image/svg+xml" href="./IMG/logo.svg" />
+    <!-- styles -->
     <link rel="stylesheet" href="styles.css" />
+    <!-- fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
       rel="stylesheet"
     />
+    <!-- fontawesome-icons -->
+    <script
+      src="https://kit.fontawesome.com/cf6cb5f649.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div class="contenedor">
@@ -33,16 +40,15 @@
       </header>
 
       <section id="contacto" class="seccion">
-        <h3>
-          ¿Tienes un proyecto en mente? ¡Contáctanos y hablemos sobre ello!
-        </h3>
+        <h4>¿Tienes un proyecto en mente?</h4>
+        <h3>¡Contáctanos y hablemos sobre tu idea!</h3>
         <div class="contacto">
           <div class="contacto_div1">
             <p>
-              Completa el siguiente formulario y nos pondremos en contacto
-              contigo lo antes posible.
+              Completa el siguiente formulario y nos pondremos en contacto con
+              vos lo antes posible.
             </p>
-            <form action=" " class="formulario">
+            <form action="mailto:tu-email@ejemplo.com?subject=Mensaje%20desde%20el%20Formulario" method="post" enctype="text/plain" class="formulario">
               <input type="text" placeholder="Tu nombre" required />
               <input type="email" placeholder="Tu mail" required />
               <textarea placeholder="Escribinos ..." required></textarea>
@@ -54,21 +60,27 @@
             <p>También podes contactarnos a través de nuestras redes</p>
 
             <div class="contacto_redes">
-              <img
-                src="./IMG/logoneg.svg"
-                alt="imagen-servicios"
-                class="contacto_img"
-              />
-              <img
-                src="./IMG/logoneg.svg"
-                alt="imagen-servicios"
-                class="contacto_img"
-              />
-              <img
-                src="./IMG/logoneg.svg"
-                alt="imagen-servicios"
-                class="contacto_img"
-              />
+              <a
+                href="https://github.com/DevRosses"
+                target="_blank"
+                title="Mi GitHub"
+              >
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/devrosses"
+                target="_blank"
+                title="Mi LinkedIn"
+              >
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+              <a
+                href="https://www.instagram.com"
+                target="_blank"
+                title="Mi Instagram"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </a>
             </div>
           </div>
         </div>
