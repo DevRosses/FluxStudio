@@ -41,7 +41,7 @@ header {
 }
 
 .logoImg {
-  max-width: 48px;
+  max-width: 120px;
   height: auto;
 }
 
@@ -259,6 +259,16 @@ header {
   text-align: center;
   padding: 24px 48px;
   gap: 24px;
+}
+
+.contacto_div3{
+  text-align: left;
+  padding-left: 84px;
+  padding-top: 12px;
+}
+
+.contacto_div3 i{
+  padding-top: 12px;
 }
 
 .contacto_div1 p {
